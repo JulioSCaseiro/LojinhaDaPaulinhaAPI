@@ -1,0 +1,16 @@
+﻿[*.cs]
+
+# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+dotnet_diagnostic.CS8618.severity = silent
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = silent
+
+# CS8765: Nullability of type of parameter doesn't match overridden member (possibly because of nullability attributes).
+dotnet_diagnostic.CS8765.severity = silent
+
+# CS8509: The switch expression does not handle all possible values of its input type (it is not exhaustive).
+dotnet_diagnostic.CS8509.severity = silent
+
+# CS8602: Dereference of a possibly null reference.
+dotnet_diagnostic.CS8602.severity = silent
